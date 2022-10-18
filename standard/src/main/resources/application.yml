@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev,db-h2
+  output:
+    ansi:
+      enabled: always
+logging:
+  level:
+    root: info
+    com.coen.cloud.standard: debug

@@ -1,0 +1,133 @@
+1491 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - Starting DeptRepositoryTest using Java 14.0.2 on DESKTOP-D4MMJPP with PID 1744 (started by bht90 in D:\workspaceSpring\java_cloud\standard)
+1492 [main] DEBUG c.c.c.s.d.dept.DeptRepositoryTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1493 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - The following 2 profiles are active: "dev", "db-h2"
+2375 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2424 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+3020 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+3069 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+3206 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3355 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3691 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3729 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+4316 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4324 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4629 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4954 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2_admin'. Database available at 'jdbc:h2:file:./dev_db'
+5180 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+5704 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - Started DeptRepositoryTest in 4.732 seconds (JVM running for 6.531)
+5708 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5709 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5712 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5713 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5713 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6119 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+6120 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+6123 [SpringApplicationShutdownHook] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+6123 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+6125 [SpringApplicationShutdownHook] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+6125 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+6125 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+6126 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+6130 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1463 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - Starting DeptRepositoryTest using Java 14.0.2 on DESKTOP-D4MMJPP with PID 5564 (started by bht90 in D:\workspaceSpring\java_cloud\standard)
+1464 [main] DEBUG c.c.c.s.d.dept.DeptRepositoryTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1464 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - The following 2 profiles are active: "dev", "db-h2"
+2202 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2254 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+3185 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+3232 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+3377 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3541 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3931 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3972 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+4568 [main] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
+4573 [main] DEBUG org.hibernate.SQL - create table dept (deptno bigint not null, dname varchar(255), loc varchar(255), primary key (deptno))
+4577 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4586 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4918 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5312 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2_admin'. Database available at 'jdbc:h2:file:./dev_db'
+5559 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+6116 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - Started DeptRepositoryTest in 5.29 seconds (JVM running for 6.542)
+6119 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6120 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6122 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+6122 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6122 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6419 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+6455 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+6456 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+6457 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+6471 [main] DEBUG org.hibernate.SQL - insert into dept (dname, loc, deptno) values (?, ?, ?)
+6474 [main] DEBUG org.hibernate.SQL - insert into dept (dname, loc, deptno) values (?, ?, ?)
+6474 [main] DEBUG org.hibernate.SQL - insert into dept (dname, loc, deptno) values (?, ?, ?)
+6475 [main] DEBUG org.hibernate.SQL - insert into dept (dname, loc, deptno) values (?, ?, ?)
+6482 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+6532 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+6533 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+6534 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+6552 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+6553 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+6553 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
+6557 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+6632 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1082 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - Starting DeptRepositoryTest using Java 14.0.2 on DESKTOP-D4MMJPP with PID 19144 (started by bht90 in D:\workspaceSpring\java_cloud\standard)
+1083 [main] DEBUG c.c.c.s.d.dept.DeptRepositoryTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1084 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - The following 2 profiles are active: "dev", "db-h2"
+1896 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1942 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2562 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2612 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2780 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2942 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3285 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3314 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+3803 [main] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
+3808 [main] DEBUG org.hibernate.SQL - create table dept (deptno bigint not null, dname varchar(255), loc varchar(255), primary key (deptno))
+3812 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3820 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4102 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4413 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2_admin'. Database available at 'jdbc:h2:file:./dev_db'
+4639 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+5181 [main] INFO  c.c.c.s.d.dept.DeptRepositoryTest - Started DeptRepositoryTest in 4.602 seconds (JVM running for 5.939)
+5184 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5185 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5189 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5190 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5190 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5471 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5509 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5510 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5510 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5520 [main] DEBUG org.hibernate.SQL - insert into dept (dname, loc, deptno) values (?, ?, ?)
+5525 [main] DEBUG org.hibernate.SQL - insert into dept (dname, loc, deptno) values (?, ?, ?)
+5525 [main] DEBUG org.hibernate.SQL - insert into dept (dname, loc, deptno) values (?, ?, ?)
+5525 [main] DEBUG org.hibernate.SQL - insert into dept (dname, loc, deptno) values (?, ?, ?)
+5531 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5581 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5582 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5583 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5599 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5600 [main] DEBUG org.hibernate.SQL - update dept set dname=?, loc=? where deptno=?
+5606 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5607 [main] DEBUG c.c.c.s.d.dept.DeptRepositoryTest - com.coen.cloud.standard.domain.dept.Dept@3a574a3b
+5615 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5617 [main] DEBUG org.hibernate.SQL - delete from dept where deptno=?
+5620 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5623 [main] DEBUG c.c.c.s.d.dept.DeptRepositoryTest - false
+5624 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5625 [main] DEBUG org.hibernate.SQL - delete from dept where deptno=?
+5626 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5627 [main] DEBUG c.c.c.s.d.dept.DeptRepositoryTest - false
+5628 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5629 [main] DEBUG org.hibernate.SQL - delete from dept where deptno=?
+5631 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5632 [main] DEBUG c.c.c.s.d.dept.DeptRepositoryTest - false
+5632 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5633 [main] DEBUG org.hibernate.SQL - delete from dept where deptno=?
+5634 [main] DEBUG org.hibernate.SQL - select dept0_.deptno as deptno1_0_0_, dept0_.dname as dname2_0_0_, dept0_.loc as loc3_0_0_ from dept dept0_ where dept0_.deptno=?
+5634 [main] DEBUG c.c.c.s.d.dept.DeptRepositoryTest - false
+5645 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+5646 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+5647 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
+5650 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+5819 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
