@@ -227,3 +227,83 @@
 1370314 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
 1370315 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
 1370389 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+820  [restartedMain] INFO  c.c.c.standard.StandardApplication - Starting StandardApplication using Java 11.0.13 on DESKTOP-SDIAU9I with PID 6768 (C:\workspace\spring\spring-test\standard\target\classes started by bht90 in C:\workspace\spring\spring-test)
+821  [restartedMain] DEBUG c.c.c.standard.StandardApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+822  [restartedMain] INFO  c.c.c.standard.StandardApplication - The following 2 profiles are active: "dev", "db-h2"
+879  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+879  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1398 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1430 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+1871 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+1878 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+1878 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1878 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+1934 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1935 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1055 ms
+1951 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2123 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2133 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2_admin'. Database available at 'jdbc:h2:file:./dev_db'
+2210 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2242 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2343 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2420 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2729 [restartedMain] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
+2732 [restartedMain] DEBUG org.hibernate.SQL - create table dept (deptno bigint not null, dname varchar(255), loc varchar(255), primary key (deptno))
+2734 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2740 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2774 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2942 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+3164 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+3176 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+3190 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+3199 [restartedMain] INFO  c.c.c.standard.StandardApplication - Started StandardApplication in 2.952 seconds (JVM running for 4.879)
+3201 [restartedMain] DEBUG c.c.c.standard.StandardApplication - ========================================
+3202 [restartedMain] DEBUG c.c.c.standard.StandardApplication - ========================================
+3203 [restartedMain] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+3203 [restartedMain] DEBUG c.c.c.standard.StandardApplication - ========================================
+3203 [restartedMain] DEBUG c.c.c.standard.StandardApplication - ========================================
+606045 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+606046 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+606047 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
+606103 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+606115 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+585  [restartedMain] INFO  c.c.c.standard.StandardApplication - Starting StandardApplication using Java 11.0.13 on DESKTOP-SDIAU9I with PID 12356 (C:\workspace\spring\spring-test\standard\target\classes started by bht90 in C:\workspace\spring\spring-test)
+586  [restartedMain] DEBUG c.c.c.standard.StandardApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+586  [restartedMain] INFO  c.c.c.standard.StandardApplication - The following 2 profiles are active: "dev", "db-h2"
+615  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+616  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1049 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1086 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+1500 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+1507 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+1508 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1508 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+1561 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1561 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 945 ms
+1580 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1731 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1740 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2_admin'. Database available at 'jdbc:h2:file:./dev_db'
+1814 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+1842 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+1932 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1999 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2284 [restartedMain] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
+2286 [restartedMain] DEBUG org.hibernate.SQL - create table dept (deptno bigint not null, dname varchar(255), loc varchar(255), primary key (deptno))
+2288 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2294 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2323 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2475 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2669 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2680 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2693 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2702 [restartedMain] INFO  c.c.c.standard.StandardApplication - Started StandardApplication in 2.489 seconds (JVM running for 3.934)
+2704 [restartedMain] DEBUG c.c.c.standard.StandardApplication - ========================================
+2704 [restartedMain] DEBUG c.c.c.standard.StandardApplication - ========================================
+2706 [restartedMain] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+2706 [restartedMain] DEBUG c.c.c.standard.StandardApplication - ========================================
+2706 [restartedMain] DEBUG c.c.c.standard.StandardApplication - ========================================
+19173 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19174 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+19174 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - drop table if exists dept CASCADE 
+19242 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+19254 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

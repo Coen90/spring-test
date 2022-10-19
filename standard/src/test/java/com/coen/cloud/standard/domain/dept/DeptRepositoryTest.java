@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @Slf4j
 @SpringBootTest
-@ActiveProfiles({"dev", "db-h2"})
+@ActiveProfiles({"dev", "db-mysql"})
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class DeptRepositoryTest {
 
