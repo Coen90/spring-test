@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev,db-h2
+    active: dev,db-mysql
 logging:
   level:
     root: info
