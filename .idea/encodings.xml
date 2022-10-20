@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/standard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/standard/src/main/java/com/coen/cloud/standard/controller/api/DeptApiController.java" charset="UTF-8" />
   </component>
 </project>

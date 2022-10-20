@@ -586,3 +586,591 @@ com.coen.cloud.standard.controller.api.DeptApiController#deptInsert(RequestDeptD
 5519 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 5522 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 5540 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1798 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 136 (started by bht90 in C:\workspace\spring\spring-test\standard)
+1799 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1799 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+2728 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2793 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+3613 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+3681 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+3857 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4430 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5320 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+5344 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+6405 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+6414 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+7510 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+7846 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+9182 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+9188 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+9202 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 12 ms
+9389 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 8.137 seconds (JVM running for 9.98)
+9395 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+9396 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+9407 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+9407 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+9407 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+9921 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+10095 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10098 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10111 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1243 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 18564 (started by bht90 in C:\workspace\spring\spring-test\standard)
+1244 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1245 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+1953 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2012 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2583 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2638 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2781 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2969 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3278 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3290 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+3879 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3887 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4364 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4752 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+5247 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+5247 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+5248 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+5268 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 4.499 seconds (JVM running for 5.769)
+5273 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5274 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5276 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5276 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5276 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5523 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5652 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+5654 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+5668 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1137 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 2448 (started by bht90 in C:\workspace\spring\spring-test\standard)
+1138 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1138 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+1890 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1955 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2531 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2585 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2739 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2934 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3291 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3306 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+3983 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3990 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4535 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4947 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+5561 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+5561 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+5562 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+5591 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 4.892 seconds (JVM running for 6.142)
+5595 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5596 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5598 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5598 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5598 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5994 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_,
+        dept0_.dname as dname2_0_,
+        dept0_.loc as loc3_0_ 
+    from
+        dept dept0_
+6019 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@5bbb0a25
+6019 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@3857c5d5
+6019 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@237824b0
+6019 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@52a8f789
+6081 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=10, dname=ACCOUNTING, loc=NEW YORK)
+6081 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=11, dname=222, loc=3333)
+6081 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=15, dname=ACCOUNTING íê³, loc=NEW YORK ë´ì)
+6082 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=20, dname=RESEARCH, loc=DALLAS)
+6113 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+6116 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+6135 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1047 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 13184 (started by bht90 in C:\workspace\spring\spring-test\standard)
+1048 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1048 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+1779 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1848 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2378 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2429 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2566 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2754 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3124 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3141 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+3804 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3811 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4365 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4774 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+5267 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+5268 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+5269 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+5293 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 4.677 seconds (JVM running for 5.726)
+5298 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5298 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5300 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5301 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5301 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5688 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_,
+        dept0_.dname as dname2_0_,
+        dept0_.loc as loc3_0_ 
+    from
+        dept dept0_
+5708 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@19b4dd60
+5709 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@25d87313
+5709 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@3c130cb2
+5709 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@73502d5e
+5758 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=10, dname=ACCOUNTING, loc=NEW YORK)
+5758 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=11, dname=222, loc=3333)
+5759 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=15, dname=ACCOUNTING íê³, loc=NEW YORK ë´ì)
+5759 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=20, dname=RESEARCH, loc=DALLAS)
+5772 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+5775 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+5792 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+981  [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 12224 (started by bht90 in C:\workspace\spring\spring-test\standard)
+982  [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+982  [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+1742 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1798 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2302 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2353 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2491 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2665 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3013 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3027 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+3665 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3671 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4187 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4488 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+4913 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+4913 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+4914 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+4932 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 4.33 seconds (JVM running for 5.346)
+4935 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+4935 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+4937 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+4937 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+4937 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5171 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5203 [main] DEBUG org.hibernate.SQL - 
+    delete 
+    from
+        dept 
+    where
+        deptno=?
+5265 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ShareDto(isOk=true, message=ì­ì )
+5280 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+5282 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+5296 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+944  [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 18616 (started by bht90 in C:\workspace\spring\spring-test\standard)
+945  [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+946  [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+1704 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1770 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2361 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2412 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2560 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2774 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3117 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3129 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+3777 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3785 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4369 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4683 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+5218 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+5218 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+5219 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+5238 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 4.707 seconds (JVM running for 5.946)
+5242 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5243 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5246 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5246 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5246 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5520 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5540 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - String.valueOf(optionalDept.isPresent())=true
+5584 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5816 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_,
+        dept0_.dname as dname2_0_,
+        dept0_.loc as loc3_0_ 
+    from
+        dept dept0_
+5831 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@32f8a37b
+5831 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@657e7e8
+5831 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@1b4ade78
+5844 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=11, dname=222, loc=3333)
+5844 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=15, dname=ACCOUNTING íê³, loc=NEW YORK ë´ì)
+5844 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=20, dname=RESEARCH, loc=DALLAS)
+5860 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5883 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5898 [main] DEBUG org.hibernate.SQL - 
+    delete 
+    from
+        dept 
+    where
+        deptno=?
+5918 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ShareDto(isOk=true, message=ì­ì )
+5930 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+5933 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+5953 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+947  [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 8436 (started by bht90 in C:\workspace\spring\spring-test\standard)
+948  [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+948  [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+1703 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1760 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2297 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2343 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2479 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2689 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3048 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3062 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+3668 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3676 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4346 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4746 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+5284 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+5285 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+5285 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+5305 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 4.796 seconds (JVM running for 5.966)
+5308 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5309 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5311 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5311 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5311 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5623 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5636 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - String.valueOf(optionalDept.isPresent())=false
+5652 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5679 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        dept
+        (dname, loc, deptno) 
+    values
+        (?, ?, ?)
+5833 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+6013 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_,
+        dept0_.dname as dname2_0_,
+        dept0_.loc as loc3_0_ 
+    from
+        dept dept0_
+6026 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@3445341
+6027 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@5ad13be4
+6027 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@2e93f91d
+6035 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=11, dname=222, loc=3333)
+6035 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=20, dname=RESEARCH, loc=DALLAS)
+6035 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=25, dname=ACCOUNTING íê³, loc=NEW YORK ë´ì)
+6048 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+6069 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+6094 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+6097 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+6115 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+876  [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 17792 (started by bht90 in C:\workspace\spring\spring-test\standard)
+877  [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+877  [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+1611 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1673 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2273 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2336 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2496 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2707 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3023 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3047 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+3738 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3746 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4345 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4648 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+5208 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+5208 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+5209 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+5230 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 4.77 seconds (JVM running for 5.982)
+5235 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5235 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5237 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5237 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5237 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5516 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5539 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - String.valueOf(optionalDept.isPresent())=true
+5575 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5805 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_,
+        dept0_.dname as dname2_0_,
+        dept0_.loc as loc3_0_ 
+    from
+        dept dept0_
+5817 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@14c7ab73
+5817 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@4fcb796f
+5817 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - dept.toString()=com.coen.cloud.standard.domain.dept.Dept@1483c738
+5825 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=11, dname=222, loc=3333)
+5825 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=20, dname=RESEARCH, loc=DALLAS)
+5825 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ResponseDeptDto(deptno=25, dname=ACCOUNTING 회계, loc=NEW YORK 뉴욕)
+5835 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5851 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5862 [main] DEBUG org.hibernate.SQL - 
+    delete 
+    from
+        dept 
+    where
+        deptno=?
+5886 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - ShareDto(isOk=true, message=삭제)
+5895 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+5899 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+5914 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1265 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 15876 (started by bht90 in C:\workspace\spring\spring-test\standard)
+1266 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1267 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+2183 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2253 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2882 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2930 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+3081 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3293 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3704 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3729 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+4552 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4562 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+5392 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5763 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+6316 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+6316 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+6318 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+6339 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 5.527 seconds (JVM running for 6.843)
+6344 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6345 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6348 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+6348 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6348 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6686 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+6700 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - String.valueOf(optionalDept.isPresent())=false
+6724 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+6750 [main] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        dept
+        (dname, loc, deptno) 
+    values
+        (?, ?, ?)
+6906 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+6909 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+6926 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1274 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 22592 (started by bht90 in C:\workspace\spring\spring-test\standard)
+1275 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1276 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+2131 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2213 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2907 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2974 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+3123 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3312 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3732 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3747 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+4426 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4435 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+5146 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5486 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+6216 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+6216 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+6217 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+6243 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 5.455 seconds (JVM running for 6.813)
+6248 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6248 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6252 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+6252 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6252 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+6610 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+6636 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - String.valueOf(optionalDept.isPresent())=true
+6850 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+6855 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+6883 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+1144 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Starting DeptApiControllerTest using Java 14.0.2 on DESKTOP-SDIAU9I with PID 19916 (started by bht90 in C:\workspace\spring\spring-test\standard)
+1145 [main] DEBUG c.c.c.s.c.api.DeptApiControllerTest - Running with Spring Boot v2.7.4, Spring v5.3.23
+1145 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - The following 2 profiles are active: "dev", "db-mysql"
+1842 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1906 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2468 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2523 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.11.Final
+2663 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2850 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+3253 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+3266 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+3990 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3997 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+4721 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5046 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+5571 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+5571 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+5572 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+5591 [main] INFO  c.c.c.s.c.api.DeptApiControllerTest - Started DeptApiControllerTest in 4.88 seconds (JVM running for 6.019)
+5595 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5596 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5598 [main] DEBUG c.c.c.standard.StandardApplication - message=DEV AREA
+5598 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5599 [main] DEBUG c.c.c.standard.StandardApplication - ========================================
+5844 [main] DEBUG c.c.c.s.c.h.InterceptorHandler - => Request: /api/v1/dept
+5909 [main] DEBUG org.hibernate.SQL - 
+    select
+        dept0_.deptno as deptno1_0_0_,
+        dept0_.dname as dname2_0_0_,
+        dept0_.loc as loc3_0_0_ 
+    from
+        dept dept0_ 
+    where
+        dept0_.deptno=?
+5932 [main] DEBUG c.c.c.s.s.dept.DeptServiceImpl - String.valueOf(optionalDept.isPresent())=true
+6031 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+6035 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+6055 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
